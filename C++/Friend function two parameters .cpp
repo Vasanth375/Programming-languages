@@ -19,7 +19,7 @@ class classA
 
 void classA::display()
   {
-    cout<<"enter a ";//cin>>a;
+    cout<<"enter a ";cin>>a;
   }
   
 class classB
