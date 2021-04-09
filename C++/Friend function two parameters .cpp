@@ -28,7 +28,7 @@ class classB
   int b=6;
   void display()
   {
-    cout<<"enter b ";//cin>>b;
+    cout<<"enter b ";cin>>b;
   }
   
   //friend function of classA and classB as parameters
