@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
  // Compiler version 4.0, .NET Framework 4.5
-
+/*Delegate : delegate is a reference type 
+  variable refer to the method, when an event 
+  occurs*/
 
  namespace Dcoder
  {
