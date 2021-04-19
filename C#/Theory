@@ -1,0 +1,18 @@
+.Net Framework through c#
+
+.Net Framework :
+Framework : A framework is platform for developing Software applications.
+Software frameworks may include support programs, compilers, code libraries, 
+toolsets, and application programming interfaces (APIs) that bring together all 
+the different components to enable development of a project or system.
+
+.Net :  .NET Framework is a software development framework for building and 
+running applications on Windows. It includes base class library called FCL (Framework class library).
+
+Basic components of.Net framework :
+1) CLR (common language runtime)
+2) FCL (framework class library)
+3) 
+   •ASP.net
+   •winforms
+   •ADO.net
