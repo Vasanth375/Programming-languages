@@ -16,3 +16,10 @@ Basic components of.Net framework :
    •ASP.net
    •winforms
    •ADO.net
+
+1) CLR : it provides run time environment to specific language compiled under CLR.
+   Code which run under CLR that code called managed code.
+   Language Compiler converts from source code to intermediate language (MSIL).
+   From MSIL code converts to native code.
+
+2) FCL : 
