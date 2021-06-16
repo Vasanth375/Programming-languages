@@ -7,7 +7,7 @@ namespace ConsoleApplication4
         public void Run()
         {
             lock (this)//lock method is used to excecute only one thread at a time does not make any mutual exclusiom
-            {
+            {//this keyword is whatever thread comes here while excecution no another thread would come here  
                 for (int i = 1; i <= 10; i++)
                 {
                     Console.WriteLine("Task is running");
