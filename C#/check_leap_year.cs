@@ -14,7 +14,7 @@ namespace LabExp
             int year = Convert.ToInt32(Console.ReadLine());
 
             //any year which is divisible by 4 is zero then year is leap year
-            if(year%4==0)
+            if(year%400==0)
             {
                 Console.WriteLine("Yes, year is leap year");
             }
