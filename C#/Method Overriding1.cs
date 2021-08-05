@@ -1,12 +1,11 @@
 /*Sample example
-  program of function overriding or Dynamic (run time)
-  Polymorphism*/
+  program of function overriding or Dynamic (run time) Polymorphism*/
 
 using System;
 
 namespace ConsoleApplication7
 {
-class Andriod1      //base class
+class Andriod1      //baseclass
 { 
   public void feature()
   {
@@ -14,14 +13,14 @@ class Andriod1      //base class
   } 
 } 
 
-class Andriod2:Andriod1  //sub class inheritance
+class Andriod2:Andriod1  //subclass inheritance
 { 
-  public void feature()   //over riden method
+  public void feature()   //overriden method
    {
       Console.WriteLine("Andriod2 feature2");
       
       //calling base class method
-      base.feature();
+      base.feature();//(ooptional) its not neccessary to call
    } 
 }
 
@@ -32,7 +31,7 @@ class Mobile
       //creating object
       Andriod2 M=new Andriod2();
       
-      //calling overridden method
+      //calling overridden method derivedclass
       M.feature();
 
     }
